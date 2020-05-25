@@ -4,5 +4,5 @@ suma = 0
 while i != f
     i += 1
     suma += i
-    puts suma
 end
+puts suma
