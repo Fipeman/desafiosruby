@@ -6,6 +6,6 @@ while n != i
         i += 1
     if (i%2) == 0
         suma += i
-    puts suma
     end
 end
+puts suma
