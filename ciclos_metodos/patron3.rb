@@ -1,10 +1,12 @@
 n = ARGV[0].to_i
 
 n.times do |i|
-    if i%4 == 0 || i%4 == 2
-        print"..*"
+    if    i%3 == 0
+        print".."
+    elsif i%3 == 1
+        print"**"
     else
-        print"*||"
-    end
+        print"||"
+    end    
 end
 puts        
