@@ -1,4 +1,5 @@
 puts "ingresa la cantidad de parrafos que necesitas"
+
 n = gets.chomp.to_i
 
 puts "

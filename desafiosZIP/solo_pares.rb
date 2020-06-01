@@ -6,6 +6,7 @@ n.times do |i|
     print " #{i}"
     end
 end
+
 puts
 
 

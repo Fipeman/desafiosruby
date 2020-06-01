@@ -7,4 +7,5 @@ for i in (1..n)
         suma += i
     end
 end
+
 puts suma
