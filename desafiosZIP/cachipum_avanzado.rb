@@ -21,25 +21,34 @@ puts "----------------"
 opcion_j1 = gets.chomp.to_i
 while opcion_j1 != 4
     if opcion_j1 < 1 || opcion_j1 > 4
+        puts "----------------"
         puts "Ingresar opción válida"
+        puts "----------------"
         opcion_j1 = gets.chomp.to_i
         else
         puts opcion_j1        
         puts "turno Jugador 2"
+        puts "----------------"
         puts "Elige una opción"
+        puts "----------------"
         puts "1) piedra"
         puts "2) papel"
         puts "3) tijera"
         puts "4) salir"
+        puts "----------------"
         opcion_j2 = gets.chomp.to_i
         while opcion_j2 != 4
         if opcion_j2 < 1 || opcion_j2 > 4
+        puts "----------------"
         puts "Ingresar opción válida"
+        puts "----------------"
         opcion_j2 = gets.chomp.to_i
         else    
         cachipum(opcion_j1,opcion_j2)
         end
-        puts "saliendo"  
+        puts "----------------"
+        puts "saliendo"
+        puts "----------------"  
         opcion_j2 = 4      
         end        
     end
