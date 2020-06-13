@@ -25,8 +25,7 @@ while opcion_j1 != 4
         puts "Ingresar opción válida"
         puts "----------------"
         opcion_j1 = gets.chomp.to_i
-        else
-        puts opcion_j1        
+        else    
         puts "turno Jugador 2"
         puts "----------------"
         puts "Elige una opción"
