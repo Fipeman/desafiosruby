@@ -3,5 +3,5 @@ def nota_mas_alta(notas)
     return notas.max
 end
 
-puts nota_mas_alta(open('./notas.data')) 
+#puts nota_mas_alta(open('./notas.data')) 
 
